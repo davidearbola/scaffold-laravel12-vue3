@@ -36,11 +36,6 @@ Spostati nella cartella del progetto:
   npm install
 ```
 
-📦 3️⃣ Installa le dipendenze JavaScript
-```bash
-  npm install
-```
-
 🗝️ 4️⃣ Crea il file .env e genera la chiave 
 Copia il file .env.example:
 ```bash
