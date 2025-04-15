@@ -62,6 +62,7 @@ Crea il database manualmente o da terminale prima di proseguire.
 ```bash
 php artisan migrate --seed
 php artisan db:seed --class=UserSeeder
+php artisan db:seed --class=ClientSeeder
 ```
 
 🧹 7️⃣ Compila gli assets
