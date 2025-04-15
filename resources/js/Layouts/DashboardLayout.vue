@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { Link, useForm } from '@inertiajs/vue3'
-import { HomeIcon, UsersIcon, ArrowRightCircleIcon } from '@heroicons/vue/24/outline'
+import { HomeIcon, UsersIcon, ArrowRightCircleIcon, MoonIcon } from '@heroicons/vue/24/outline'
 
 const sidebarOpen = ref(false)
 const logoutForm = useForm({})
@@ -31,6 +31,9 @@ const logout = () => {
         <Link href="/users" class="flex items-center space-x-2 hover:text-blue-600">
           <UsersIcon class="h-5 w-5" />
           <span>Utenti</span>
+        </Link>
+        <Link href="/clients" class="flex items-center space-x-2 hover:text-blue-600">
+          <MoonIcon class="h-5 w-5" /> <span>Clienti</span>
         </Link>
         <button
           @click="logout"
