@@ -50,7 +50,7 @@ const logout = () => {
     />
 
     <!-- Content -->
-    <div class="flex-1 p-4 overflow-y-auto">
+    <div class="flex-1 p-4 h-screen overflow-y-auto">
       <div class="md:hidden mb-4">
         <button @click="sidebarOpen = true" class="bg-blue-600 text-white px-4 py-2 rounded">
           Menu
